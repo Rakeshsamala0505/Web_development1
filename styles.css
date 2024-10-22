@@ -409,8 +409,18 @@ textarea {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
-    font-family:sans-serif;
+    font-family:cursive;
     letter-spacing: 1px; }
+    @media only screen and (max-width: 75em) {
+      .header__logo-sub  {
+        font-family:sans-serif; } }
+    @media only screen and (max-width: 56.25em) {
+      .header__logo-sub  {
+        font-family:sans-serif; } }
+    @media only screen and (min-width: 112.5em) {
+      .header__logo-sub  {
+        font-family:sans-serif; } }
+
   .header__links {
     display: flex; }
     @media only screen and (max-width: 37.5em) {
