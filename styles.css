@@ -72,14 +72,7 @@ textarea {
     .heading-primary {
       font-family:sans-serif;
     } }
-    @media only screen and (max-width: 56.25em) {
-      .heading-primary {
-        font-family:sans-serif;
-      } }
-      @media only screen and (max-width: 112.5em) {
-        .heading-primary {
-          font-family:sans-serif;
-        } }
+
 
 .heading-sec__mb-bg {
   margin-bottom: 2rem; }
@@ -96,13 +89,17 @@ textarea {
 .heading-sec__main {
   display: block;
   font-size: 4rem;
-  font-family: sans-serif;
+  font-family: cursive;
   text-transform: uppercase;
   letter-spacing: 1px;
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 3.5rem;
   position: relative; }
+  @media only screen and (max-width: 75em) {
+    .heading-sec__main {
+      font-family:sans-serif;
+    } }
   .heading-sec__main--lt {
     color: #000000; }
     .heading-sec__main--lt::after {
@@ -654,8 +651,8 @@ html, body {
 #staticButton::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(180px + 12px);
-  min-height: calc(50px + 12px);
+  min-width: calc(180px + 9px);
+  min-height: calc(50px + 9px);
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0,255,203,.64);
   position: absolute;
