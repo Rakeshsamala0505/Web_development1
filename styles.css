@@ -409,7 +409,7 @@ textarea {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
-    font-family:cursive;
+    font-family:unbounded sans-serif;
     letter-spacing: 1px; }
   .header__links {
     display: flex; }
