@@ -70,7 +70,9 @@ textarea {
   text-align: center; }
   @media only screen and (max-width: 200.5em) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 4.5rem; 
+      font-family:sans-serif;
+    } }
 
 .heading-sec__mb-bg {
   margin-bottom: 2rem; }
