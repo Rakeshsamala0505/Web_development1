@@ -68,11 +68,21 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
-  @media only screen and (max-width: 200.5em) {
+  @media only screen and (max-width: 75em) {
     .heading-primary {
       font-size: 4.5rem; 
       font-family:sans-serif;
     } }
+    @media only screen and (max-width: 56.25em) {
+      .heading-primary {
+        font-size: 4.5rem; 
+        font-family:sans-serif;
+      } }
+      @media only screen and (max-width: 112.5em) {
+        .heading-primary {
+          font-size: 4.5rem; 
+          font-family:sans-serif;
+        } }
 
 .heading-sec__mb-bg {
   margin-bottom: 2rem; }
