@@ -651,7 +651,7 @@ html, body {
   .staticButton  {
   position: fixed;  /* Keeps the button fixed on the screen */
   bottom: 60px;    /* Distance from the bottom of the screen */
-  right: 15px;      /* Distance from the right side of the screen */
+  right: 30px;      /* Distance from the right side of the screen */
   min-width: 10px; /* Ensures the button has a minimum width */
   min-height: 6px; /* Ensures the button has a minimum height */
   font-family: 'Nunito', sans-serif;
