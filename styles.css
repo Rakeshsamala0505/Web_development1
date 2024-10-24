@@ -687,7 +687,7 @@ html, body {
   opacity: 0;
   transition: all .3s ease-in-out 0s;
 }
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 55em) {
   .staticButton::before {
     content: '';
   border-radius: 1000px;
