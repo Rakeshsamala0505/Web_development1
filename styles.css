@@ -650,8 +650,8 @@ html, body {
 @media only screen and (max-width: 75em) {
   .staticButton  {
   position: fixed;  /* Keeps the button fixed on the screen */
-  bottom: 75px;    /* Distance from the bottom of the screen */
-  right: 10px;      /* Distance from the right side of the screen */
+  bottom: 65px;    /* Distance from the bottom of the screen */
+  right: 8px;      /* Distance from the right side of the screen */
   min-width: 10px; /* Ensures the button has a minimum width */
   min-height: 6px; /* Ensures the button has a minimum height */
   font-family: 'Nunito', sans-serif;
