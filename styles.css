@@ -375,7 +375,7 @@ textarea {
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #f8e7b9;
+  background: #ffffff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -647,7 +647,7 @@ html, body {
   outline: none;
   padding: 15px 30px; /* Added padding for fixed position */
 }
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 55em) {
   .staticButton  {
   position: fixed;  /* Keeps the button fixed on the screen */
   bottom: 60px;    /* Distance from the bottom of the screen */
@@ -692,7 +692,7 @@ html, body {
     content: '';
   border-radius: 1000px;
   min-width: calc(100px + 9px);
-  min-height: calc(50px + 9px);
+  min-height: calc(48px + 9px);
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0,255,203,.64);
   position: absolute;
