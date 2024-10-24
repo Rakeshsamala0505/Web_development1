@@ -623,7 +623,7 @@ html, body {
   height: 100%;
 }
 
-#staticButton {
+.staticButton {
   position: fixed;  /* Keeps the button fixed on the screen */
   bottom: 75px;    /* Distance from the bottom of the screen */
   right: 40px;      /* Distance from the right side of the screen */
@@ -647,8 +647,35 @@ html, body {
   outline: none;
   padding: 15px 30px; /* Added padding for fixed position */
 }
+@media only screen and (max-width: 75em) {
+  .staticButton  {
+    position: fixed;  /* Keeps the button fixed on the screen */
+  bottom: 75px;    /* Distance from the bottom of the screen */
+  right: 40px;      /* Distance from the right side of the screen */
+  min-width: 100px; /* Ensures the button has a minimum width */
+  min-height: 60px; /* Ensures the button has a minimum height */
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  padding: 15px 15px; /* Added padding for fixed position */ } }
+@media only screen and (min-width: 112.5em) {
+  .staticButton  {
+    font-family:sans-serif; } }
 
-#staticButton::before {
+.staticButton::before {
   content: '';
   border-radius: 1000px;
   min-width: calc(180px + 9px);
@@ -663,18 +690,18 @@ html, body {
   transition: all .3s ease-in-out 0s;
 }
 
-#staticButton:hover, 
-#staticButton:focus {
+.staticButton:hover, 
+.staticButton:focus {
   color: #313133;
   transform: translateY(-6px);  /* Moves the button up when hovered */
 }
 
-#staticButton:hover::before, 
-#staticButton:focus::before {
+.staticButton:hover::before, 
+.staticButton:focus::before {
   opacity: 1; /* Makes the glowing border visible on hover */
 }
 
-#staticButton::after {
+.staticButton::after {
   content: '';
   width: 30px; height: 30px;
   border-radius: 100%;
@@ -687,8 +714,8 @@ html, body {
   animation: ring 1.2s infinite;
 }
 
-#staticButton:hover::after, 
-#staticButton:focus::after {
+.staticButton:hover::after, 
+.staticButton:focus::after {
   animation: none;
   display: none; /* Stops the animation when the button is hovered */
 }
