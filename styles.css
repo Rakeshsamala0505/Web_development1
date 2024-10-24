@@ -671,14 +671,12 @@ html, body {
   cursor: pointer;
   outline: none;
   padding: 15px 10px; /* Added padding for fixed position */ } }
-@media only screen and (min-width: 112.5em) {
-  .staticButton  {
-    font-family:sans-serif; } }
+
 
 .staticButton::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(100px + 9px);
+  min-width: calc(180px + 9px);
   min-height: calc(50px + 9px);
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0,255,203,.64);
@@ -689,6 +687,21 @@ html, body {
   opacity: 0;
   transition: all .3s ease-in-out 0s;
 }
+@media only screen and (max-width: 75em) {
+  .staticButton::before {
+    content: '';
+  border-radius: 1000px;
+  min-width: calc(100px + 9px);
+  min-height: calc(50px + 9px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s; } }
+
 
 .staticButton:hover, 
 .staticButton:focus {
