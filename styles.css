@@ -651,7 +651,7 @@ html, body {
   .staticButton  {
   position: fixed;  /* Keeps the button fixed on the screen */
   bottom: 75px;    /* Distance from the bottom of the screen */
-  right: 40px;      /* Distance from the right side of the screen */
+  right: 15px;      /* Distance from the right side of the screen */
   min-width: 10px; /* Ensures the button has a minimum width */
   min-height: 6px; /* Ensures the button has a minimum height */
   font-family: 'Nunito', sans-serif;
@@ -670,7 +670,7 @@ html, body {
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
-  padding: 15px 15px; /* Added padding for fixed position */ } }
+  padding: 15px 10px; /* Added padding for fixed position */ } }
 @media only screen and (min-width: 112.5em) {
   .staticButton  {
     font-family:sans-serif; } }
