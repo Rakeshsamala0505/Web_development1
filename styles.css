@@ -189,9 +189,9 @@ textarea {
   text-align: center;
   width: 100%;
   line-height: 1.6; }
-  @media only screen and (max-width: 55.5em) {
+  @media only screen and (max-width: 37.5em) {
     .text-primary {
-      font-size: rem; } }
+      font-size: 2rem; } }
 
 .d-none {
   display: none; }
