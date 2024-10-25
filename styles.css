@@ -534,7 +534,7 @@ textarea {
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
-    padding: 5rem 0;
+    padding: 2rem 0;
     border-top: 1px solid #444;
     color: #eee;
     font-size: 1.6rem;
@@ -546,7 +546,7 @@ textarea {
       margin-left: 2px; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
-        padding: 5rem 0; } }
+        padding: 1rem 0; } }
 
 .skills {
   display: flex;
