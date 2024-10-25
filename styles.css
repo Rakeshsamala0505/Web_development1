@@ -127,7 +127,7 @@ textarea {
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-bottom: 10px;
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
@@ -144,7 +144,7 @@ textarea {
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%; }
+  width: 85%; }
 
 .btn {
   background: #fff;
@@ -498,6 +498,11 @@ textarea {
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
+    @media only screen and (max-width: 55.5em) {
+      .blog_content {
+        padding: 2rem 0;
+      display: flex;} }
+
 .main-footer {
   background: #390867;
   color: #fff; }
@@ -751,6 +756,64 @@ html, body {
 /* Hover effect for color change */
 #staticButton:hover {
     background-color: #0056b3; /* Darkens the background on hover */
+}
+/* General Styles for the Blog Section */
+#projects {
+  padding: 20px; /* Adjust overall padding if needed */
+}
+
+.heading-sec__main {
+  font-size: 2.5em;
+  margin-bottom: 10px; /* Adjusts space below the heading */
+  text-align: center;
+}
+
+/* Reduce space around the Blog header */
+.heading-sec {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 0; /* Ensures minimal padding */
+}
+
+.blog_content {
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Controls spacing between paragraphs */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 55em) {
+  .heading-sec__main {
+    font-size: 2.2em;
+  }
+
+  .blog_content {
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 37em) {
+  .heading-sec__main {
+    font-size: 2em;
+  }
+
+  .blog_content {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 120em) {
+  .heading-sec__main {
+    font-size: 1.8em;
+  }
+
+  .blog_content {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    padding: 30px 10px; /* Adds padding for smaller screens */
+  }
 }
 
 
