@@ -548,7 +548,7 @@ textarea {
       margin-left: 2px; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
-        padding: 1rem 0; } }
+        padding: 5rem 0; } }
 
 .skills {
   display: flex;
