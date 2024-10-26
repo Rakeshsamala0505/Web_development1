@@ -788,6 +788,7 @@ html, body {
   }
 }
 
+
 @media (max-width: 480px) {
   .heading-sec__mb-bg {
     font-size: 24px;
@@ -841,4 +842,10 @@ padding: 60px; }
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+}
+@media only screen and (max-width: 55em) {
+  .heading_bgg{
+    max-width: 64rem;
+        width: 114%;
+        margin-left: -26px;  }
 }
