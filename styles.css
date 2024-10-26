@@ -769,7 +769,7 @@ html, body {
 /* Paragraph Styling */
 #projects p {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
   text-align: justify;
   margin-bottom: 0px;
 }
@@ -783,7 +783,7 @@ html, body {
 
   #projects p {
     font-size: 15px;
-    line-height: 1.4;
+    line-height: 1.6;
     padding: 0 15px; /* Adds padding for smaller screens */
   }
 }
