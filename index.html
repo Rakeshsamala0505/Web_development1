@@ -20,6 +20,24 @@
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <!-- Additional Fonts -->
+
+        <script>
+          // Listen for any hash change in the URL
+          window.addEventListener('hashchange', function() {
+             if (window.location.hash) {
+                // Remove the hash without reloading the page
+                history.replaceState(null, '', window.location.pathname);
+             }
+          });
+       
+          // Run the same code on page load
+          window.addEventListener('load', function() {
+             if (window.location.hash) {
+                history.replaceState(null, '', window.location.pathname);
+             }
+          });
+       </script>
+       
   </head>
   <body>
     <header class="header">
@@ -95,9 +113,9 @@
         <div class="home-hero__info">
           <p class="text-primary">
             Hey Buddy! Looking to Build your Website ? You came to a Right place.
-A strong online presence is important for showcasing your skills and achievements 
-to potential Clients. This website creates a personalized platform to
- reflect your professional identity and capabilities.<br><br>
+            Having a strong online presence is important to show your skills and 
+            achievements to potential clients. This website gives you a personalized 
+            space to showcase your professional identity and abilities.<br><br>
               Just click the "<strong style="color: yellow;">Lets Start</strong>" button and sit back. 
               We'll take care of creating your personalized <strong>Website</strong> and keep you updated
                throughout the process!
@@ -120,7 +138,7 @@ to potential Clients. This website creates a personalized platform to
           <div class="about__content-main">
             <div class="about__content-details">
               <p class="about__content-details-para" style="font-size: 16px; text-align:justify">
-                Welcome to Web Maker! We’re dedicated developers to turn your vision into reality by 
+                Welcome to  <strong>Web Maker!</strong> We’re dedicated developers to turn your vision into reality by 
                 building personalized portfolios that showcase who you are and what you do. 
                 Our approach is simple no pre-made templates, only handcrafted designs that
                  reflect your unique style, personality, and expertise. Whether you're a freelancer,
@@ -130,7 +148,7 @@ to potential Clients. This website creates a personalized platform to
                     an online presence that leaves a lasting impact on your audience.
               </p><br>
               <p class="about__content-details-para" style="font-size: 18px;">
-                Let’s bring your vision to life with <strong>Web Maker</strong> where creativity meets precision.
+                Let’s bring your vision to life with <strong style="color:crimson;">Web Maker</strong> where creativity meets precision.
               </p>
             </div>
           </div>
@@ -168,7 +186,7 @@ to potential Clients. This website creates a personalized platform to
             
           </span>
         </h2>
-        <p style="font-size: 16px;">1. In this generation Websites attract more attention than resumes in job searches let us help you create one to reach potential employers.
+        <p style="font-size: 16px;">1. In this generation Websites attract more attention than resumes in job searche let us help you create one to reach companies.
           <br><br>
           
           2. Fully customized portfolios made from scratch, reflecting your individuality no templates or shortcuts.<br><br>
@@ -223,7 +241,7 @@ to potential Clients. This website creates a personalized platform to
             <h4 class="heading heading-sm text-lt">Web Maker</h4>
             <p class="main-footer__short-desc">
               Please send us any queries below, and we will get back to you within 24hours <br><br>
-              <p style="font-size: 15px;">
+              <p style="font-size: 13px;">
                 Customer Support: <a href="mailto:webmaker0428@gmail.com">webmaker0428@gmail.com</a>
               </p>
             </p>
@@ -242,6 +260,7 @@ to potential Clients. This website creates a personalized platform to
     </a>
     <script src="./index.js"></script>
   </body>
+  
   <style>
     ol {
         list-style-type: decimal; /* Ensure the list uses decimal numbering */
